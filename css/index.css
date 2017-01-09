@@ -1,0 +1,49 @@
+body,h1 {
+    font-family: "Raleway", sans-serif
+}
+
+body, html {
+    height: 100%
+}
+
+body{
+    background-color: black;
+}
+.bgimg {
+    background-image: url('images/background.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.w3-display-topmiddles{
+    position:absolute;
+    left:50%;
+    top:13%;
+    transform:translate(-50%,0%);
+    -ms-transform:translate(-50%,0%)
+}
+
+
+/* LINKS */
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  color:            white;
+  } 
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  color:            white;
+  } 
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  none;
+  color:            yellow;
+  } 
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  none;
+  color: white;
+  }
